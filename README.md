@@ -20,6 +20,7 @@ Este proyecto cumple el laboratorio con dos servidores en AWS:
 - [spring-backend/](spring-backend/): backend y seguridad
 - [docs/](docs/): comandos y guia del despliegue
 - [images/](images/): evidencias de pruebas
+- [evidences/](evidences/): video de demostracion
 
 ## Como ejecutar el lab
 
@@ -62,3 +63,7 @@ Durante las pruebas se uso certificado autofirmado en Spring, por eso el navegad
 
 5. Endpoint protegido con token valido
 ![Endpoint protegido](images/05-endpoint-protegido-ok.png)
+
+## Video de demostracion
+
+- [Ver video del laboratorio](evidences/arep%20secure%20application%20design.mp4)
