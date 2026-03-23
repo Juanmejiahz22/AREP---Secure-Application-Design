@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Secure App Client</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<main class="container">
+    <h1>Secure App Workshop</h1>
+    <p>Cliente asíncrono servido por Apache con conexión TLS.</p>
+
+    <section class="card">
+        <h2>Registro</h2>
+        <input id="registerUser" placeholder="Usuario" />
+        <input id="registerPass" type="password" placeholder="Contraseña" />
+        <button id="registerBtn">Registrar</button>
+    </section>
+
+    <section class="card">
+        <h2>Login</h2>
+        <input id="loginUser" placeholder="Usuario" />
+        <input id="loginPass" type="password" placeholder="Contraseña" />
+        <button id="loginBtn">Ingresar</button>
+    </section>
+
+    <section class="card">
+        <h2>Endpoint protegido</h2>
+        <button id="pingBtn">Probar CORS (test)</button>
+        <button id="secureBtn">Probar /api/secure/hello</button>
+    </section>
+
+    <pre id="output"></pre>
+</main>
+
+<script src="app.js"></script>
+</body>
+</html>
